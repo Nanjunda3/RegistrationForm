@@ -24,6 +24,6 @@ after submitting you will recieve a alert message on the screen and the entered 
 
 ![Screenshot (34)](https://github.com/Nanjunda3/RegistrationForm/assets/94178708/1153d796-2945-4018-b80a-ab58c33c5d70)
 
-and we will also recieve a message following "YOU HAVE COMPLETED THE REGISTRATION SUCESSFULLY"
+and we will also recieve a message to the email id which we use to register following "YOU HAVE COMPLETED THE REGISTRATION SUCESSFULLY"
 
 ![Screenshot (35)](https://github.com/Nanjunda3/RegistrationForm/assets/94178708/8d8921c6-7bfb-49fe-be71-2c44fb2a4132)
