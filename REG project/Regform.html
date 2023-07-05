@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regestration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="color"></div>
+        <form id="RegestrationForm"; onsubmit="sendEmail()">
+            <h1>Regestration Form</h1>
+            <label class="name">Enter Fullname</label><br />
+            <input type="text" placeholder="Enter your Fullname" required name="fullname" id="fullname" ><br />
+            <label>Enter Number</label><br />
+            <input type="tel" placeholder="Enter your Number" name="number" id="number" ><br />
+            <label>Enter Email</label><br />
+            <input type="email" placeholder="Enter your email Id" required name="email" id="email" ><br />
+            <div class="button"><button type="submit">submit</button></div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="./storage.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "rohitstories1@gmail.com",
+            Password : "DC9C78EBDE082A64F7CAEFF506D37BD67DDB",
+            To : document.getElementById("email").value,
+            From : "rohitstories1@gmail.com",
+            Subject : "Registraion",
+            Body : "YOU HAVE COMPLETED THE REGISTRATION SUCESSFULLY"
+        }).then(
+          message => alert(message)
+        );
+    }
+</script>
+</body>
+</html>

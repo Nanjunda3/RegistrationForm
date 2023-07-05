@@ -1,0 +1,88 @@
+body
+{
+    padding: 80px;
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 80px;
+    background-image: linear-gradient(black, white);
+}
+.container
+{
+    position: relative;
+    height: 500px;
+    width: 420px;
+    background:blueviolet;
+    border: 10px whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+    border-width: 5px;
+    border-radius: 0px 50px 0px 50px;
+}
+
+.container form
+{
+    position: relative;
+    background: blueviolet;
+    padding: 30px 60px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+h1
+{
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+#fullname
+{
+    border-width: 0px;
+    position: relative;
+   margin-top: 5px;
+   margin-bottom: 5px;
+padding: 9px 25px;
+border-radius: 50px 50px 50px 50px;
+
+
+}
+#number
+{
+    border-width: 0px;
+    border-radius: 50px 50px 50px 50px;
+     position: relative;
+     margin-top: 5px;
+   margin-bottom:5px;
+   padding: 9px 25px;
+
+}
+#email
+{
+    border-width: 0px;
+     position: relative;
+       margin-top: 5px;
+   margin-bottom: 5px;
+   padding: 9px 25px;
+   border-radius: 50px 50px 50px 50px;
+}
+button:hover
+{
+ background-color: grey;
+ border: 2px rgb(21, 11, 11);
+ opacity: 1;
+ border-radius: 7px;
+
+}
+button
+{
+    padding: 9px 25px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+.button
+{
+   text-align: center;
+}
